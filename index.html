@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./SpecificStyleSheets/index.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.js"></script>
+    <script src="./Scripts/changeColor.js" defer></script>
+    <script src="./Scripts/ZValue.js" defer></script>
+</head>
+<body>
+   <header>
+        <nav>
+            <a class="binomial-button" href="./HTML_Pages/Binomial">Binomial</a>
+            <a class="geometric-button" href="./HTML_Pages/Geometric">Geometric</a>
+            <a class="poisson-button" href="./HTML_Pages/Poisson">Poisson</a>
+            <a class="normal-button" href="./HTML_Pages/Normal">Normal</a>
+        </nav>
+   </header> 
+
+   <div class="main">
+        <div class="glow-button">
+            <button id="main-button">
+                <h1 class="text">
+                    Statistics Distribution Calculator
+                </h1>
+
+                <h3 class="text-smaller">
+                    For when your fx-991 ES PLUS just won't do
+                </h3>
+
+                <h5 class="text-smaller">
+                    made by - Justus :)
+                </h5>
+                <span class="shimmer"></span>
+            </button>
+        </div>
+
+        <div class="z-value-calc">
+                <div class="calc-input">
+                        <div class="input-element">
+                            <h2>\(z = \) <input type="number" class="input" id="top-eq-input-1" name="z" placeholder="z"></h2>
+                            <h2>\(\Phi(z) = \) <input type="number" class="input" id="top-eq-input-2" name="p" placeholder="p"></h2>
+                            <h5>*probability to z-value is only an approximation</h5>
+                        </div>
+                </div>
+        </div>
+   </div>
+   
+
+   
+</body>
+</html>
