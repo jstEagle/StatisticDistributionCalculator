@@ -175,6 +175,10 @@ header {
     height: fit-content;
 }
 
+.calc-input {
+    height: 100%;
+}
+
 .z-value-calc h2 {
     padding: 10px;
 }
