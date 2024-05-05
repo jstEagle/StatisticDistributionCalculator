@@ -135,7 +135,7 @@ inputElement.addEventListener('input', function() {
                 else {
                     answer = 1;
                     answerEquationElement.textContent = '';
-                    answerEquationElement.textContent += `\\(p(X>${r}) = 1 - (`
+                    answerEquationElement.textContent += `\\(p(X\le${r}) = 1 - (`
                     for(var i = r+1; i <= n; i++) {
                         answer -= combination(n, i) * (p**i) * (q**(n-i));
                         if(i == n) {
