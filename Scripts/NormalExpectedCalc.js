@@ -18,7 +18,7 @@ function expectedValueCalc() {
     const stdDev = Math.sqrt(parseFloat(varField.value)); // Standard deviation of the normal distribution
     const numPoints = 100; // Number of points to generate
 
-    for (let i = mean - (stdDev * 5); i <= mean + (stdDev * 5); i += 0.5) {
+    for (let i = mean - (stdDev * 5); i <= mean + (stdDev * 5); i += mean / 200) {
         labels.push(i.toFixed(1));
         data.push({
             x: i,
