@@ -18,7 +18,7 @@ inputElement.addEventListener('input', function() {
         if(match) {
             var answer = 0;
             const operator = match[1];
-            const r = parseInt(match[2]);
+            const r = parseFloat(match[2]);
 
             if(operator == '=') {
                 answerEquationElement.textContent = `\\(p(X=${r}) \\rightarrow \\frac{1}{\\infty}\\)`;
