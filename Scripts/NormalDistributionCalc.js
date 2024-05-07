@@ -5,7 +5,7 @@ const numberAnswerElement = document.getElementById('number-answer');
 inputElement.addEventListener('input', function() {
     if(this.value.trim() !== '') {
         const equationString = this.value.trim();
-        const pattern = /x\s*(<=|>=|=|<|>)\s*(\d+)/i;
+        const pattern = /x\s*(<=|>=|=|<|>)\s*(\d+(\.\d+)?)/i;
 
         const match = pattern.exec(equationString);
         var meanField = document.getElementById('top-eq-input-1');
