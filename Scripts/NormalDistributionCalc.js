@@ -52,6 +52,9 @@ inputElement.addEventListener('input', function() {
             }
 
             answer = truncateDecimals(answer, 6);
+            if(answer > 1) {
+                answer = 0;
+            }
             numberAnswerElement.textContent = `\\(= ${answer}\\)`;
         }
 
