@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "title": "Statistics Calculator",
+  "description": "My first website, built to calculate and graph different statistical distributions for homework help.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Statistics"
+  ],
+  "featured": false,
+  "order": 40,
+  "links": {
+    "demo": "https://jsteagle.github.io/StatisticDistributionCalculator/",
+    "repo": "https://github.com/jstEagle/StatisticDistributionCalculator"
+  },
+  "images": []
+}
